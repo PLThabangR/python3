@@ -23,8 +23,9 @@ else:
     print('Turning light on')
 ############################################
 ##Discount for loyal customers
+
 loyaltCustomer = True
-totalBill=124
+totalBill=49
 
 if loyaltCustomer and totalBill >100:
     print("Loyal customer 20% discount")
@@ -36,3 +37,7 @@ else:
     print("Sorry no discount")
 
 print(f"Total Bil : {totalBill}")
+#The above code snippet first checks to see if the customer is part of the loyalty program and if they are spending over $100. If both conditions are met, a discount of 20% is applied to the bill. The elif statement will only be executed if the first if condition is not met. The elif statement will only check if the bill is over $100 and if it is, it will apply a discount of 10%  to the bill.
+
+#Switch
+#Match statements
