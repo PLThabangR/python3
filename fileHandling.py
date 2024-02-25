@@ -5,12 +5,14 @@
 #file.readline read the first line from a file
 #readlines-
 with open("test.txt",mode='r') as file:
-    for x in file:
-        print(x)
+    data = file.readlines()
+
+for x in data:
+    print(x)
 #Creating new files
    #w = write mode 
     #a= append add more lines
-    #Adding a squre brackets will run o
+    #Adding a squre brackets will write a list
 try:
     with open("newfile.txt",mode='w') as file:
         file.writelines(["\nthis is a new file created","\nThis is another line"])
