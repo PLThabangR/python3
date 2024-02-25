@@ -1,0 +1,38 @@
+Solution algorithm
+
+Input 
+Ingredients required:
+
+Cup
+
+Hot water
+
+Coffee granules
+
+Optional:
+
+Milk
+
+Cream 
+
+Sugar
+
+Output
+A cup of coffee.
+
+Steps
+1. Add drinking water to an electric kettle. 
+
+2. Put the kettle on to boil water.
+
+3. While waiting, prepare coffee.
+
+4. Add coffee granules to the cup.
+
+5. If water is boiled, pour water into a cup, else continue to wait.
+
+6. If milk or cream is required, add and stir.
+
+7. If sugar is required, add and stir.
+
+8. Return coffee.
