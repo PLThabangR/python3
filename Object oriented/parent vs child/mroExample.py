@@ -16,3 +16,5 @@ class D(B,A):
 d = D()
 print(D.mro())
 print(d.c())
+
+
