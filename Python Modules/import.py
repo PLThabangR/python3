@@ -1,6 +1,6 @@
-from math import sqrt
+import pandas as pd
 
+a = pd.DataFrame({'Animals': ['Dog','Cat','Lion','Cow','Elephant'],
+                    'Sounds':['Barks','Meow','Roars','Moo','Trumpet']})
 
-
-root = sqrt(9)
-print(root)
+print(a)
